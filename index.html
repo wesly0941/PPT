@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPT</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+
+    <header class="header">
+        <h2 class="header_title">Piedra, Papel o Tijera</h2>
+    </header>
+
+    <main class="main_container">
+    
+        <div class="vs_container">
+
+            <div class="player">
+                <img id="player1" src="CSS/consola.png" alt="">
+                <p>Jugador</p>
+                <p id="ptos_player1">0</p>
+            </div>
+
+            <div class="vs">
+                <h3 id="result">VS</h3>
+            </div>
+
+            <div class="player">
+                <img id="player2" src="CSS/bot.png" alt="">
+                <p>CPU</p>
+                <p id="ptos_player2">0</p>
+            </div>
+
+        </div>
+        
+        <div class="game_container">
+
+            <div class="game_options">
+                    <button id="piedra" class="option_piedra">
+                        <img src="CSS/piedra.png" alt="">
+                    </button>
+                    <button id="papel" class="option_papel">
+                        <img src="CSS/papel.png" alt="">
+                    </button>
+                    <button id="tijera" class="option_tijera">
+                        <img src="CSS/tijeras.png" alt="">
+                    </button>         
+            </div>
+
+        </div>
+
+        <div class="start_game">
+            <button id="start_game">
+                <img src="CSS/play.png" alt="">
+            </button>
+            <button id="reset">
+                <img src="CSS/reinicio.png" alt="">
+            </button>
+        </div>
+
+    </main>
+
+    <section id="historico">
+    </section>
+
+    <section class="logo_c">
+
+        <div class="logo">
+                <img src="CSS/logo.png" alt="">
+            </div>
+
+    </section>
+
+    <section class="logo_c2">
+
+        <div class="logo">
+                <img src="CSS/logo.png" alt="">
+            </div>
+
+    </section>
+    
+    <script src="app.js"></script>
+</body>
+</html>
