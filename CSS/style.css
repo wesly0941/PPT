@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body{
+    font-family: 'Fredoka One', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #5C258D;  
+    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  
+    background: linear-gradient(to right, #4389A2, #5C258D); 
+    color: #000000;
+    overflow-x: hidden;
+}
+
+h2{
+  color: white;
+}
+
+.header .header_title{
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
+.main_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_container .vs_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 50px 0px 50px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    background-color: #ffffff66;
+    width: 13cm;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    
+}
+
+.main_container .vs_container .player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.main_container .vs_container img {
+    height: 180px;
+    width: auto;
+}
